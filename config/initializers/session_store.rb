@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-TrackingMentorship::Application.config.session_store :cookie_store, key: '_Tracking_mentorship_session'
+Tracking::Application.config.session_store :cookie_store, key: '_tracking_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# TrackingMentorship::Application.config.session_store :active_record_store
+# Tracking::Application.config.session_store :active_record_store

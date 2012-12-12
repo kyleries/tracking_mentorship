@@ -1,0 +1,7 @@
+- provide(:title, 'Edit')
+%h4 Editing the New Contract
+%br/
+= form_for(@codeline) do |codeline|
+  = render 'form_fields', codeline: codeline
+  .actions
+  = codeline.submit "Update", class: 'update strong round'
